@@ -94,6 +94,10 @@ if [ ! -f "apps/ai-service/.env" ]; then
     echo "✅ Created apps/ai-service/.env"
 fi
 
+if [ ! -f "apps/web/.env.local" ]; then
+    cp apps/web/.env.example apps/web/.env.local
+    echo "✅ Created apps/web/.env.local"
+fi
 echo ""
 echo "✨ Setup complete!"
 echo ""
