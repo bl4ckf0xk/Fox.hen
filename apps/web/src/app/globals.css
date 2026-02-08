@@ -3,15 +3,25 @@
 @tailwind utilities;
 
 :root {
-  --cyber-black: #0a0a0a;
-  --cyber-gunmetal: #2a3439;
-  --cyber-silver: #c0c0c0;
-  --cyber-blue: #2563eb;
+  --background: #0a0a0a;
+  --surface: #121212;
+  --surface-highlight: #1e1e1e;
+  --primary: #2563eb;
+  --stealth-green: #10b981;
+  --alert-red: #ef4444;
+  --text-muted: #a1a1aa;
 }
 
 body {
-  background-color: var(--cyber-black);
-  color: var(--cyber-silver);
+  background-color: var(--background);
+  color: #ffffff;
+}
+
+code,
+pre,
+kbd,
+samp {
+  font-family: var(--font-jetbrains-mono), monospace;
 }
 
 @layer utilities {
