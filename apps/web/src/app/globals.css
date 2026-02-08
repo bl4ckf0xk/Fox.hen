@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cyber-black: #0a0a0a;
+  --cyber-gunmetal: #2a3439;
+  --cyber-silver: #c0c0c0;
+  --cyber-blue: #2563eb;
+}
+
+body {
+  background-color: var(--cyber-black);
+  color: var(--cyber-silver);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
