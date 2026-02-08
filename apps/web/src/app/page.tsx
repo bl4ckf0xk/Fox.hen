@@ -57,9 +57,14 @@ export default function Home() {
         <div className="mt-16 max-w-2xl mx-auto">
           <div className="bg-surface p-6 rounded-lg border border-surface-highlight">
             <h3 className="text-lg font-semibold mb-3 text-primary">Sample Code Block</h3>
-            <code className="block text-sm text-stealth-green font-mono">
-              {'// Using JetBrains Mono for code\nfunction exploit() {\n  return "stealth mode activated";\n}'}
-            </code>
+            <pre className="text-sm text-stealth-green font-mono">
+              <code>
+{`// Using JetBrains Mono for code
+function exploit() {
+  return "stealth mode activated";
+}`}
+              </code>
+            </pre>
           </div>
         </div>
       </div>
