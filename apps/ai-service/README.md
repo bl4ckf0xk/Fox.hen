@@ -2,6 +2,8 @@
 
 Adaptive AI service built with Python and FastAPI for the Fox.hen CTF platform.
 
+**Version**: FastAPI 0.115.0 (Security Patched)
+
 ## Features
 
 - Attack pattern analysis

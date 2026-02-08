@@ -15,12 +15,19 @@ This is a **Turborepo monorepo** with the following structure:
 ```
 Fox.hen/
 ├── apps/
-│   ├── web/              # Next.js 14+ frontend (TypeScript + Tailwind CSS)
+│   ├── web/              # Next.js 15+ frontend (TypeScript + Tailwind CSS)
 │   ├── go-core/          # Go backend for core services
 │   └── ai-service/       # Python FastAPI service for AI/ML
 ├── packages/             # Shared packages (optional)
 └── turbo.json           # Turborepo configuration
 ```
+
+## 🔒 Security
+
+This project uses security-patched versions of all dependencies:
+- **Next.js 15.0.8+** - Patched against HTTP request deserialization DoS vulnerability
+- **FastAPI 0.115.0+** - Patched against ReDoS vulnerability
+- All dependencies are regularly updated to address security issues
 
 ## 🎨 Design System - Cyber-Stealth Theme
 

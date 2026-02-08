@@ -207,7 +207,7 @@ cd apps/ai-service && python main.py # AI dev
 ### Frontend Stack
 ```json
 {
-  "framework": "Next.js 14+",
+  "framework": "Next.js 15.0.8+ (Security Patched)",
   "language": "TypeScript 5.3+",
   "styling": "Tailwind CSS 3.4+",
   "runtime": "Node.js 18+",
@@ -228,7 +228,7 @@ cd apps/ai-service && python main.py # AI dev
 ```json
 {
   "language": "Python 3.11+",
-  "framework": "FastAPI 0.109+",
+  "framework": "FastAPI 0.115+ (Security Patched)",
   "server": "Uvicorn 0.27+",
   "dependencies": ["pydantic", "numpy", "scikit-learn"]
 }
